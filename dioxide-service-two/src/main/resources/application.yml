@@ -1,0 +1,12 @@
+server:
+  port: 8763
+testFeignConfig: FAIL
+
+eureka:
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 20
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
