@@ -6,13 +6,13 @@ server:
 eureka:
   instance:
     hostname: localhost
-    appname: ×¢²áÖĞĞÄ
-  server: #ÅäÖÃÊôĞÔ£¬µ«ÓÉÓÚ Eureka ×ÔÎÒ±£»¤Ä£Ê½ÒÔ¼°ĞÄÌøÖÜÆÚ³¤µÄÔ­Òò£¬¾­³£»áÓöµ½ Eureka Server ²»ÌŞ³ıÒÑ¹ØÍ£µÄ½ÚµãµÄÎÊÌâ
+    appname: ×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+  server: #ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Eureka ï¿½ï¿½ï¿½Ò±ï¿½ï¿½ï¿½Ä£Ê½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ú³ï¿½ï¿½ï¿½Ô­ï¿½ò£¬¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ Eureka Server ï¿½ï¿½ï¿½Ş³ï¿½ï¿½Ñ¹ï¿½Í£ï¿½Ä½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
     enable-self-preservation: false
     eviction-interval-timer-in-ms: 5000
     peer-eureka-nodes-update-interval-ms: 1000
     wait-time-in-ms-when-sync-empty: 0
-  client: # ²»Ïò×¢²áÖĞĞÄ×¢²á×Ô¼º
+  client: # ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¢ï¿½ï¿½ï¿½Ô¼ï¿½
     fetch-registry: false
     register-with-eureka: false
     service-url:

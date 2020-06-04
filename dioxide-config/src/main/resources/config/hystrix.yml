@@ -29,5 +29,3 @@ hystrix:
   # 当maxQueueSize=-1时，会使用SynchronousQueue，maxQueueSize>0时使用 LinkedBlcokingQueue，并且该值只在初始化的时候才生效，默认值是：-1
   #hystrix.threadpool.default.queueSizeRejectionThreshold
   # 因为maxQueueSize的值在设置后不可进行修改，如果要还没有达到maxQueueSize值，请求也被拒绝，那么修改这个值即可，当maxQueueSize==-1时不生效。queueSizeRejectionThreshold默认值是：5
-
-# 更多参数：https://github.com/Netflix/Hystrix/wiki/Configuration#ThreadPool

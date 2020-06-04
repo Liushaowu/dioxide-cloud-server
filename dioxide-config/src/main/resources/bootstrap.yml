@@ -7,7 +7,7 @@ spring:
     config:
       server:
         native:
-          search-locations: file:D:\WorkSpace\self\dioxide-cloud-server\dioxide-config\src\main\resources\config
+          search-locations: file:D:\WorkSpace\dioxide-cloud-server\dioxide-config\src\main\resources\config
 
 #        git:
 #          uri: https://github.com/Liushaowu/dioxide-config-manage

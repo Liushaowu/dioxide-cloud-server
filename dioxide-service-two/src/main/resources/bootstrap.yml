@@ -15,6 +15,11 @@ spring:
   profiles: dev
   application:
     name: dioxide-service-two,hystrix,ribbon,feign
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:8211
   cloud:
     config:
       lable: master #指定仓库分支
@@ -27,6 +32,11 @@ spring:
   profiles: test
   application:
     name: dioxide-service-two,hystrix,ribbon,feign
+  sleuth:
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:8211
   cloud:
     config:
       lable: master #指定仓库分支
@@ -39,6 +49,11 @@ spring:
   profiles: prod
   application:
     name: dioxide-service-two,hystrix,ribbon,feign
+  sleuth: #抓取日志 配置 生产环境容易影响性能
+    sampler:
+      percentage: 1
+  zipkin:
+    base-url: http://localhost:8211
   cloud:
     config:
       lable: master #指定仓库分支

@@ -14,11 +14,11 @@ public class TestController {
     @GetMapping("/test")
     public String test(@RequestParam("str") String str){
         System.out.println("请求了一次");
-        try {
-            Thread.sleep(5000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            Thread.sleep(5000);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
 
         //throw new RuntimeException("错误信息");
         TestUtils.testUtils();
